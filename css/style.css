@@ -9,8 +9,17 @@
     box-sizing: border-box;
 }
 
+header {
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    padding: 15px 100px 150px 100px;
+
+
+}
+
 .riga1, .riga2, .riga3, .riga4, .Ftop {
     display: flex;
+
 }
 
 
@@ -54,21 +63,21 @@
 
 .debug .col-big {
     background-color: #1e90ff;
-    max-width: 715px;
+    width: 715px;
     border-style: dashed;
     border: 10px solid black dotted;
 }
 
 .debug .col-small {
     background-color: #ffc0cb;
-    max-width:500px;
+    width: 500px;
     border-style: dashed;
     border: 10px solid black dotted;
 }
 
 .debug .col-unica {
     background-color: #228b22;
-    max-width: 1200px;
+    width: 1200px;
     border-style: dashed;
     border: 10px solid black dotted;
 }
@@ -91,53 +100,93 @@
 
 .Htop {
     display: flex;
-    background-color: #add8e6;
-    padding: 15px;
+    padding-bottom: 50px;
     justify-content: center;
+    text-align: center;
 }
 
 
 .logo1 {
     width: 25%;
-    background-color: #daa520;
-    border-style: dashed;
-    border: 10px solid black dotted;
-    padding: 5px;
+    text-align: center;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
 }
 
 .link {
-    width: 25%;
-    background-color: #daa520;
-    border-style: dashed;
-    border: 10px solid black dotted;
+
+    color: white;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+
 }
 
 .login {
-    width: 25%;
-    background-color: #daa520;
-    border-style: dashed;
-    border: 10px solid black dotted;
-    text-align: end;
-    padding: 5px;
+    margin-left: 330px;
+    color: black;
+    text-align: right;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    justify-content: center;
 }
 
 
 .Hbottom {
     display: flex;
-    background-color: #00008b;
     padding: 25px;
     justify-content: center;
 }
 
 
 .container {
-    width: 70%;
+    width: 50%;
     height: 250px;
-    background-color: #ee82ee;
-    border-style: dashed;
-    border: 10px solid black dotted
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 40px;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+
+.minibox {
+    gap: 20px;
+    padding-left: 25%;
+    padding-top: 10px;
+    align-items: center;
+    display: inline-flex;
+}
+
+.botton1::before {
+    content: '\1F87B';
+}
+
+.botton1 {
+    display: inline-block;
+    background-color: white;
+    border-radius: 25px;
+    padding: 8px;
+    color: black;
+}
+
+.botton2 {
+    display: inline-block;
+    background-color: black;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
 }
 
 
@@ -154,7 +203,7 @@
 
 .xy {
     background-color: #7fffd4;
-    max-width: 800px;
+    width: 800px;
     display: flex;
     justify-content: space-between;
 
@@ -167,12 +216,4 @@
     text-align: left;
     padding: 5px;
 
-}
-
-.bottone {
-    border-style: dashed;
-    f border: 10px solid black dotted;
-    background-color: white;
-    text-align: :right;
-    padding: 5px;
 }
