@@ -1,0 +1,178 @@
+/* body{
+    background-color: red ;
+
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.riga1, .riga2, .riga3, .riga4, .Ftop {
+    display: flex;
+}
+
+
+.debug .riga1 {
+    height: 500px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.debug .riga2 {
+    height: 500px;
+    padding: 50px;
+    justify-content: center;
+    background-color: #d3d3d3
+}
+
+
+.debug .riga3 {
+    height: 500px;
+    padding: 50px;
+    justify-content: center;
+}
+
+
+.debug .riga4 {
+    height: 900px;
+    padding: 50px;
+    justify-content: center;
+    background-color: #d3d3d3
+}
+
+.debug .Ftop {
+    justify-content: center;
+    height: 580px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+    background-color: #23272a;
+}
+
+
+.debug .col-big {
+    background-color: #1e90ff;
+    max-width: 715px;
+    border-style: dashed;
+    border: 10px solid black dotted;
+}
+
+.debug .col-small {
+    background-color: #ffc0cb;
+    max-width:500px;
+    border-style: dashed;
+    border: 10px solid black dotted;
+}
+
+.debug .col-unica {
+    background-color: #228b22;
+    max-width: 1200px;
+    border-style: dashed;
+    border: 10px solid black dotted;
+}
+
+.debug .col-sr {
+    background-color: #f08080;
+    width: 30%;
+    border-style: dashed;
+    border: 10px solid black dotted;
+
+}
+
+.debug .col-jr {
+    background-color: #20b2aa;
+    width: 15%;
+    border-style: dashed;
+    border: 10px solid black dotted;
+
+}
+
+.Htop {
+    display: flex;
+    background-color: #add8e6;
+    padding: 15px;
+    justify-content: center;
+}
+
+
+.logo1 {
+    width: 25%;
+    background-color: #daa520;
+    border-style: dashed;
+    border: 10px solid black dotted;
+    padding: 5px;
+}
+
+.link {
+    width: 25%;
+    background-color: #daa520;
+    border-style: dashed;
+    border: 10px solid black dotted;
+    text-align: center;
+    padding: 5px;
+}
+
+.login {
+    width: 25%;
+    background-color: #daa520;
+    border-style: dashed;
+    border: 10px solid black dotted;
+    text-align: end;
+    padding: 5px;
+}
+
+
+.Hbottom {
+    display: flex;
+    background-color: #00008b;
+    padding: 25px;
+    justify-content: center;
+}
+
+
+.container {
+    width: 70%;
+    height: 250px;
+    background-color: #ee82ee;
+    border-style: dashed;
+    border: 10px solid black dotted
+}
+
+
+
+
+
+/* footer*/
+.Fbottom {
+    display: flex;
+    background-color: #23272a;
+    padding: 15px;
+    justify-content: center;
+}
+
+.xy {
+    background-color: #7fffd4;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo2 {
+    border-style: dashed;
+    border: 10px solid black dotted;
+    background-color: white;
+    text-align: left;
+    padding: 5px;
+
+}
+
+.bottone {
+    border-style: dashed;
+    f border: 10px solid black dotted;
+    background-color: white;
+    text-align: :right;
+    padding: 5px;
+}
