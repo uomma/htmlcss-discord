@@ -29,11 +29,35 @@ header {
     justify-content: center;
 }
 
+.debug .col-big1 {
+    background-image: url('../img/item1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 715px;
+}
+
+.debug .col-small1 {
+    width: 500px;
+    padding: 0% 8%;
+}
+
 .debug .riga2 {
     height: 500px;
     padding: 50px;
     justify-content: center;
-    background-color: #d3d3d3
+    background-color: lightgrey;
+}
+
+.debug .col-big2 {
+    background-image: url('../img/item2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 715px;
+}
+
+.debug .col-small2 {
+    width: 500px;
+    padding: 0% 8%;
 }
 
 
@@ -43,12 +67,27 @@ header {
     justify-content: center;
 }
 
+.debug .col-big3 {
+    background-image: url('../img/item3.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 715px;
+}
+
+.debug .col-small3 {
+    width: 500px;
+    padding: 0% 8%;
+}
 
 .debug .riga4 {
     height: 900px;
     padding: 50px;
-    justify-content: center;
-    background-color: #d3d3d3
+    background-color: lightgrey;
+}
+
+.debug .col-unica {
+    background-color: lightgrey;
+    width: 1200px;    
 }
 
 .debug .Ftop {
@@ -58,28 +97,6 @@ header {
     padding-bottom: 30px;
     border-bottom: 1px solid white;
     background-color: #23272a;
-}
-
-
-.debug .col-big {
-    background-color: #1e90ff;
-    width: 715px;
-    border-style: dashed;
-    border: 10px solid black dotted;
-}
-
-.debug .col-small {
-    background-color: #ffc0cb;
-    width: 500px;
-    border-style: dashed;
-    border: 10px solid black dotted;
-}
-
-.debug .col-unica {
-    background-color: #228b22;
-    width: 1200px;
-    border-style: dashed;
-    border: 10px solid black dotted;
 }
 
 .debug .col-sr {
@@ -189,7 +206,17 @@ p {
     color: white;
 }
 
+.titolo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding-bottom: 25px;
+}
 
+.testo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+    align-items: center;
+}
 
 
 
