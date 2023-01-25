@@ -195,7 +195,11 @@ p {
     
 }
 
-.botton1,.botton3::before {
+.botton1::before{
+    content: '\1F87B';
+
+}
+.botton3::before {
     content: '\1F87B';
 }
 
