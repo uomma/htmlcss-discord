@@ -87,7 +87,9 @@ header {
 
 .debug .col-unica {
     background-color: lightgrey;
-    width: 1200px;    
+    width: 1200px; 
+    padding-left: 25%;
+    text-align: center;   
 }
 
 .debug .Ftop {
@@ -186,11 +188,18 @@ p {
     display: inline-flex;
 }
 
-.botton1::before {
+.lonebox{
+    padding-top: 10px;
+    align-items: center;
+    display: inline-flex;
+    
+}
+
+.botton1,.botton3::before {
     content: '\1F87B';
 }
 
-.botton1 {
+.botton1{
     display: inline-block;
     background-color: white;
     border-radius: 25px;
@@ -203,6 +212,13 @@ p {
     background-color: black;
     border-radius: 25px;
     padding: 10px;
+    color: white;
+}
+.botton3{
+    display: inline-block;
+    background-color:  rgba(0, 76, 255, 0.847);
+    border-radius: 25px;
+    padding: 8px;
     color: white;
 }
 
@@ -218,8 +234,13 @@ p {
     align-items: center;
 }
 
+.ready{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 650;
+padding: 15px;
 
-
+}
 /* footer*/
 .Fbottom {
     display: flex;
